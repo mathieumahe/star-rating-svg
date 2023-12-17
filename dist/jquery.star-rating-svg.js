@@ -60,7 +60,7 @@
     };
 
     // create unique id for stars
-    this._uid = Math.floor( Math.random() * 999 );
+    this._uid = 1; // Math.floor( Math.random() * 999 );
 
     // override gradient if not used
     if( !options.starGradient && !this.settings.useGradient ){
